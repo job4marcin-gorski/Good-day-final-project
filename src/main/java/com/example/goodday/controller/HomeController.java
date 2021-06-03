@@ -1,5 +1,5 @@
 package com.example.goodday.controller;
-
+/*
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.StringHttpMessageConverter;
@@ -39,6 +39,6 @@ public class HomeController implements UTFController {
 // Adnotacja @ResponseBody pod Requestmapping- wskazuje, że nie przekazujemy informacji do widoku tylko zwracamy zawartość bezpośrednio.
 //W zawartości możemy umieścić bezpośrednio HTML i zostanie on poprawnie przetworzony.
 
-
+*/
 
 

@@ -1,5 +1,6 @@
 package com.example.goodday.controller;
 
+/*
 import com.example.goodday.config.AppConfig;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
@@ -34,3 +35,4 @@ public class AppInitializer implements WebApplicationInitializer {
 //        registration.addMapping("/app/*");
     }
 }
+*/
