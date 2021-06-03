@@ -2,11 +2,6 @@ package com.example.goodday;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.awt.print.Book;
-
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -32,6 +27,11 @@ public class JpaUserTest {
 
 		assertEquals(3, repository.findAll().size());
 
+		assertEquals(2, repository.findByEmailPart("%wp.pl").size());
+		assertEquals(1, repository.findByEmailPart("%google%").size());
+		assertEquals(0, repository.findByEmailPart("%dupa%").size());
+		
+		
 		
 	}
 
